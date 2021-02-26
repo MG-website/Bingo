@@ -79,8 +79,8 @@ if(init){
             </div>
         
             
-            <ButtonIngresar id='btn' onClick={ sacarNum }>
-               sacar numero
+            <ButtonIngresar id='btn' onClick={numeros.length !== 0 ? sacarNum : reiniciar}>
+                {numeros.length !== 0 ? 'Sacar Numero' : 'Cargar Numeros'}
             </ButtonIngresar>
             <Link to='/'>
         <ButtonIngresar onClick={ ()=>dispatch(finalizarJuego())}> Salir</ButtonIngresar>
