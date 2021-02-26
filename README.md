@@ -5,3 +5,6 @@ Creada con React, redux y styled-components
 correr:
  npm intall 
  npm start
+ 
+ ## Puedes ver la app aqui
+https://bingo-62n56wjtv-mg-website.vercel.app/
